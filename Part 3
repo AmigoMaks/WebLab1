@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header title="Навігація сайту">
+      <p>
+        <a href="index.html">Перейти до сторінки про автора</a> |
+        <a href="index1.html">Перейти до сторінки про компанію</a>
+      </p>
+    </header>
+
+    <section class="main-title text-center">
+      <h1>
+        Новини компанії
+        <ruby>
+          Меблі Комфорт
+          <rt id="rt1">Mebli Komfort</rt>
+          <rp class="rp-tag">(</rp><rp class="rp-tag">)</rp>
+        </ruby>
+      </h1>
+    </section>
+
+    <article id="news1" style="margin-bottom: 20px;">
+      <div class="news-container" id="news-div1">
+        <h2 class="subheading">Запуск нової колекції меблів</h2>
+        <p>
+          <time style="font-style: italic;" id="t1" cite="source1">2025-09-20</time>
+          ми раді оголосити про запуск нової колекції
+          <mark lang="uk" cite="source2" style="background: yellow;">“Сучасний Затишок”</mark>.
+          Ця колекція включає
+          <bdo>дивани, столи та шафи</bdo>
+          від провідних виробників.
+        </p>
+        <p>
+          <span class="collection-details" title="Деталі колекції">Особливість колекції</span>:
+          використання екологічних матеріалів, таких як натуральне дерево та тканини з перероблених волокон.
+          Ціна на дивани починається від
+          <sup lang="uk" style="font-size: small;" class="price-sup highlight">15,000</sup>
+          грн, а столи — від
+          <sub id="s1" class="price-sub" lang="uk">8,500</sub> грн.
+        </p>
+        <img
+          src="img/surfinio1200h500-1200x500.jpg"
+          width="600"
+          vspace="10"
+          hspace="10"
+          class="news-image"
+          usemap="#map1"
+          ismap
+          alt="Нова колекція меблів"
+        />
+
+        <map accesskey="m" id="map1" style="border: none;" lang="uk" name="map1">
+          <area
+            shape="rect"
+            coords="0,0,600,300"
+            class="map-area"
+            onfocus="this.blur()"
+            title="Перейти до каталогу"
+            href="#"
+        />
+        </map>
+
+      </div>
+    </article>
+
+    <aside id="promo-aside">
+      <h3>Акція до кінця місяця!</h3>
+      <p>
+        Тільки до
+        <time style="font-style: italic;" id="t2" cite="source3">30.10.2025</time>
+        отримайте знижку
+        <mark lang="uk" cite="discount" style="background: yellow;">20%</mark>
+        на всі товари
+        <bdo>з нової колекції</bdo>.
+        <span class="promo-conditions" title="Умови акції">Поспішіть</span>
+        зробити замовлення!
+      </p>
+    </aside>
+
+    <article id="news2" style="margin-top: 20px;">
+      <div class="news-container" id="news-div2">
+        <h2 class="subheading">Участь у виставці “Меблі 2025”</h2>
+        <p>
+          <time style="font-style: italic;" id="t3" cite="source4">04.11.2025</time>
+          наша компанія візьме участь у міжнародній виставці
+          <mark lang="uk" cite="source5" style="background: yellow;">“Меблі 2025”</mark>
+          у Києві. Відвідувачі зможуть побачити наші новинки та отримати консультацію від експертів.
+        </p>
+      </div>
+    </article>
+
+    <footer title="Футер сайту">
+      <p>
+        © 2025
+        <ruby>
+          Меблі Комфорт
+          <rt id="rt2">Mebli Komfort</rt>
+          <rp class="rp-tag">(</rp><rp class="rp-tag">)</rp>
+        </ruby>.
+        Усі права захищено.
+      </p>
+    </footer>
+  </body>
+</html>

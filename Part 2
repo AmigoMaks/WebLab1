@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <p>
+        <a href="index.html">Перейти до сторінки про автора</a> |
+        <a href="index2.html">Перейти до сторінки про Новини</a>
+      </p>
+    </header>
+
+    <h1>
+      Про компанію
+      <abbr class="company-abbr" lang="uk"
+        >ТОВ</abbr
+      >
+      "Меблі Комфорт"
+    </h1>
+
+    <address lang="uk" class="company-contact">
+      вул. Центральна, 10, м. Київ, Україна<br />
+      Телефон: +380 44 123 45 67<br />
+      Електронна пошта: info@meblikomfort.ua
+    </address>
+
+    <q title="Цитата про компанію" id="company-quote" class="quote">
+      "Меблі Комфорт" — ваш надійний партнер у створенні затишку!
+    </q>
+
+    <p>
+      Компанія
+      <dfn style="font-style: italic;" dir="ltr">Меблі Комфорт</dfn>
+      спеціалізується на продажі якісних меблів від провідних
+      <abbr class="producers-abbr" lang="uk">виробників</abbr>.
+      Ми пропонуємо широкий асортимент для дому та офісу за доступними цінами.
+    </p>
+
+    <h2>Наші товари</h2>
+
+    <pre title="Інформація про товар" id="product1">
+      Назва: <cite class="product-name" lang="uk">Диван "Елегант"</cite>
+      Тип: <code title="Тип меблів" id="type1">Кутовий диван</code>
+      Виробник: Comfort Design, Україна
+      Постачальник: ТОВ "Меблевий Світ"
+      Матеріал: Тканина
+      Ціна: 15,000 грн
+    </pre>
+
+    <pre title="Інформація про товар" id="product2">
+      Назва: <cite class="product-name" lang="uk">Стіл "Модерн"</cite>
+      Тип: <code title="Тип меблів" id="type2">Обідній стіл</code>
+      Виробник: WoodCraft, Польща
+      Постачальник: ПП "ЄвроМеблі"
+      Матеріал: Дерево
+      Ціна: 8,500 грн
+    </pre>
+
+    <h2>Приклад товару</h2>
+    <img
+      src="img/surfinio1200h500-1200x500.jpg"
+      alt="Диван Елегант"
+      width="600"
+      height="250"
+    />
+
+    <p>
+      <strong>Звертайтесь до нас</strong> за допомогою на
+      <code title="Контактна інформація" id="contact">info@meblikomfort.ua</code>
+      або відвідайте наш сайт для замовлення
+      <dfn style="font-style: italic;" dir="ltr">меблів вашої мрії</dfn>!
+    </p>
+  </body>
+</html>

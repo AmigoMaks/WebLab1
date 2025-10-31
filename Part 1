@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 align="center" style="color: darkblue;" title="Навігація сайту">
+      <a href="index1.html">Перейти до сторінки про компанію</a> |
+      <a href="index2.html">Перейти до сторінки про Новини</a>
+    </h1>
+
+    <h3 align="center" style="color: darkred;" title="Інформація про автора">
+      Про мене
+    </h3>
+
+    <p align="justify" style="font-size: 18px;" title="Опис автора">
+      Мене звати <big style="color: blue;" title="Ім'я автора">Прокопчук Максим</big>, я студент факультету
+      комп'ютерних наук. Захоплююсь програмуванням, математикою, англійською, музикою та іграми.
+    </p>
+
+    <hr color="gray" noshade size="2" />
+
+    <h3 align="left" style="color: green;" title="Мої навички">Мої навички</h3>
+
+    <p align="left" style="font-size: 16px;" title="Список навичок">
+      Я володію C, C++,
+      <strike lang="en" id="skills3" class="prog">Python</strike>,
+      та іншими технологіями в програмувані.
+      <br style="margin-top: 10px;" id="br1" class="line-break" />
+      Постійно вдосконалюю свої знання, вивчаючи нові технології.
+    </p>
+
+    <h3 align="center" style="font-style: italic;" title="Моя мотивація">
+      Моя мотивація
+    </h3>
+
+    <p align="center" style="color: brown;" title="Мотивація автора">
+      <small id="quote1" title="Motivational quote" lang="en">
+        "Кожен проєкт — це можливість навчитися чомусь новому."
+      </small>
+      <br style="margin-top: 10px;" id="br2" class="Додатковий відступ" />
+      <big style="color: darkorange;" title="Motivational text">
+        Я прагну створювати проекти, які приносять користь людям!
+      </big>
+    </p>
+  </body>
+</html>
